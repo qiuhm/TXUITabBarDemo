@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4ED5C2E1855CA2D00B48264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C2D1855CA2D00B48264 /* Foundation.framework */; };
+		D4ED5C301855CA2D00B48264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C2F1855CA2D00B48264 /* CoreGraphics.framework */; };
+		D4ED5C321855CA2D00B48264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C311855CA2D00B48264 /* UIKit.framework */; };
+		D4ED5C381855CA2D00B48264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4ED5C361855CA2D00B48264 /* InfoPlist.strings */; };
+		D4ED5C3A1855CA2D00B48264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED5C391855CA2D00B48264 /* main.m */; };
+		D4ED5C3E1855CA2D00B48264 /* txAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED5C3D1855CA2D00B48264 /* txAppDelegate.m */; };
+		D4ED5C401855CA2D00B48264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4ED5C3F1855CA2D00B48264 /* Images.xcassets */; };
+		D4ED5C471855CA2D00B48264 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C461855CA2D00B48264 /* XCTest.framework */; };
+		D4ED5C481855CA2D00B48264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C2D1855CA2D00B48264 /* Foundation.framework */; };
+		D4ED5C491855CA2D00B48264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED5C311855CA2D00B48264 /* UIKit.framework */; };
+		D4ED5C511855CA2D00B48264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4ED5C4F1855CA2D00B48264 /* InfoPlist.strings */; };
+		D4ED5C531855CA2D00B48264 /* TXUITabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED5C521855CA2D00B48264 /* TXUITabBarDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4ED5C4A1855CA2D00B48264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4ED5C221855CA2D00B48264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4ED5C291855CA2D00B48264;
+			remoteInfo = TXUITabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4ED5C2A1855CA2D00B48264 /* TXUITabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXUITabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ED5C2D1855CA2D00B48264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4ED5C2F1855CA2D00B48264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4ED5C311855CA2D00B48264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4ED5C351855CA2D00B48264 /* TXUITabBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUITabBarDemo-Info.plist"; sourceTree = "<group>"; };
+		D4ED5C371855CA2D00B48264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4ED5C391855CA2D00B48264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4ED5C3B1855CA2D00B48264 /* TXUITabBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TXUITabBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D4ED5C3C1855CA2D00B48264 /* txAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = txAppDelegate.h; sourceTree = "<group>"; };
+		D4ED5C3D1855CA2D00B48264 /* txAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = txAppDelegate.m; sourceTree = "<group>"; };
+		D4ED5C3F1855CA2D00B48264 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4ED5C451855CA2D00B48264 /* TXUITabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXUITabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ED5C461855CA2D00B48264 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4ED5C4E1855CA2D00B48264 /* TXUITabBarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUITabBarDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D4ED5C501855CA2D00B48264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4ED5C521855CA2D00B48264 /* TXUITabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXUITabBarDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4ED5C271855CA2D00B48264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C301855CA2D00B48264 /* CoreGraphics.framework in Frameworks */,
+				D4ED5C321855CA2D00B48264 /* UIKit.framework in Frameworks */,
+				D4ED5C2E1855CA2D00B48264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED5C421855CA2D00B48264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C471855CA2D00B48264 /* XCTest.framework in Frameworks */,
+				D4ED5C491855CA2D00B48264 /* UIKit.framework in Frameworks */,
+				D4ED5C481855CA2D00B48264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4ED5C211855CA2D00B48264 = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C331855CA2D00B48264 /* TXUITabBarDemo */,
+				D4ED5C4C1855CA2D00B48264 /* TXUITabBarDemoTests */,
+				D4ED5C2C1855CA2D00B48264 /* Frameworks */,
+				D4ED5C2B1855CA2D00B48264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4ED5C2B1855CA2D00B48264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C2A1855CA2D00B48264 /* TXUITabBarDemo.app */,
+				D4ED5C451855CA2D00B48264 /* TXUITabBarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4ED5C2C1855CA2D00B48264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C2D1855CA2D00B48264 /* Foundation.framework */,
+				D4ED5C2F1855CA2D00B48264 /* CoreGraphics.framework */,
+				D4ED5C311855CA2D00B48264 /* UIKit.framework */,
+				D4ED5C461855CA2D00B48264 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4ED5C331855CA2D00B48264 /* TXUITabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C3C1855CA2D00B48264 /* txAppDelegate.h */,
+				D4ED5C3D1855CA2D00B48264 /* txAppDelegate.m */,
+				D4ED5C3F1855CA2D00B48264 /* Images.xcassets */,
+				D4ED5C341855CA2D00B48264 /* Supporting Files */,
+			);
+			path = TXUITabBarDemo;
+			sourceTree = "<group>";
+		};
+		D4ED5C341855CA2D00B48264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C351855CA2D00B48264 /* TXUITabBarDemo-Info.plist */,
+				D4ED5C361855CA2D00B48264 /* InfoPlist.strings */,
+				D4ED5C391855CA2D00B48264 /* main.m */,
+				D4ED5C3B1855CA2D00B48264 /* TXUITabBarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4ED5C4C1855CA2D00B48264 /* TXUITabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C521855CA2D00B48264 /* TXUITabBarDemoTests.m */,
+				D4ED5C4D1855CA2D00B48264 /* Supporting Files */,
+			);
+			path = TXUITabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		D4ED5C4D1855CA2D00B48264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED5C4E1855CA2D00B48264 /* TXUITabBarDemoTests-Info.plist */,
+				D4ED5C4F1855CA2D00B48264 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4ED5C291855CA2D00B48264 /* TXUITabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ED5C561855CA2D00B48264 /* Build configuration list for PBXNativeTarget "TXUITabBarDemo" */;
+			buildPhases = (
+				D4ED5C261855CA2D00B48264 /* Sources */,
+				D4ED5C271855CA2D00B48264 /* Frameworks */,
+				D4ED5C281855CA2D00B48264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXUITabBarDemo;
+			productName = TXUITabBarDemo;
+			productReference = D4ED5C2A1855CA2D00B48264 /* TXUITabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4ED5C441855CA2D00B48264 /* TXUITabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ED5C591855CA2D00B48264 /* Build configuration list for PBXNativeTarget "TXUITabBarDemoTests" */;
+			buildPhases = (
+				D4ED5C411855CA2D00B48264 /* Sources */,
+				D4ED5C421855CA2D00B48264 /* Frameworks */,
+				D4ED5C431855CA2D00B48264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4ED5C4B1855CA2D00B48264 /* PBXTargetDependency */,
+			);
+			name = TXUITabBarDemoTests;
+			productName = TXUITabBarDemoTests;
+			productReference = D4ED5C451855CA2D00B48264 /* TXUITabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4ED5C221855CA2D00B48264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tx;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tingxuan.qhm;
+				TargetAttributes = {
+					D4ED5C441855CA2D00B48264 = {
+						TestTargetID = D4ED5C291855CA2D00B48264;
+					};
+				};
+			};
+			buildConfigurationList = D4ED5C251855CA2D00B48264 /* Build configuration list for PBXProject "TXUITabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4ED5C211855CA2D00B48264;
+			productRefGroup = D4ED5C2B1855CA2D00B48264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4ED5C291855CA2D00B48264 /* TXUITabBarDemo */,
+				D4ED5C441855CA2D00B48264 /* TXUITabBarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4ED5C281855CA2D00B48264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C381855CA2D00B48264 /* InfoPlist.strings in Resources */,
+				D4ED5C401855CA2D00B48264 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED5C431855CA2D00B48264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C511855CA2D00B48264 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4ED5C261855CA2D00B48264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C3E1855CA2D00B48264 /* txAppDelegate.m in Sources */,
+				D4ED5C3A1855CA2D00B48264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED5C411855CA2D00B48264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED5C531855CA2D00B48264 /* TXUITabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4ED5C4B1855CA2D00B48264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4ED5C291855CA2D00B48264 /* TXUITabBarDemo */;
+			targetProxy = D4ED5C4A1855CA2D00B48264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4ED5C361855CA2D00B48264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4ED5C371855CA2D00B48264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4ED5C4F1855CA2D00B48264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4ED5C501855CA2D00B48264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4ED5C541855CA2D00B48264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4ED5C551855CA2D00B48264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4ED5C571855CA2D00B48264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUITabBarDemo/TXUITabBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUITabBarDemo/TXUITabBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4ED5C581855CA2D00B48264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUITabBarDemo/TXUITabBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUITabBarDemo/TXUITabBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4ED5C5A1855CA2D00B48264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXUITabBarDemo.app/TXUITabBarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUITabBarDemo/TXUITabBarDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TXUITabBarDemoTests/TXUITabBarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4ED5C5B1855CA2D00B48264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXUITabBarDemo.app/TXUITabBarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUITabBarDemo/TXUITabBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUITabBarDemoTests/TXUITabBarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4ED5C251855CA2D00B48264 /* Build configuration list for PBXProject "TXUITabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED5C541855CA2D00B48264 /* Debug */,
+				D4ED5C551855CA2D00B48264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4ED5C561855CA2D00B48264 /* Build configuration list for PBXNativeTarget "TXUITabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED5C571855CA2D00B48264 /* Debug */,
+				D4ED5C581855CA2D00B48264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4ED5C591855CA2D00B48264 /* Build configuration list for PBXNativeTarget "TXUITabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED5C5A1855CA2D00B48264 /* Debug */,
+				D4ED5C5B1855CA2D00B48264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4ED5C221855CA2D00B48264 /* Project object */;
+}
